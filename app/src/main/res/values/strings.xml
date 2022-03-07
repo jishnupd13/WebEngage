@@ -14,4 +14,6 @@
     <string name="email">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="password">Password</string>
+    <string name="click_event_person">Click Event Person</string>
+    <string name="logout">Logout</string>
 </resources>

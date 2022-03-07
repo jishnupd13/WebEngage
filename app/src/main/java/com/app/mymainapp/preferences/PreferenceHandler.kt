@@ -14,4 +14,12 @@ class PreferenceHandler @Inject constructor(
     var userToken: String
         get() = sharedPreferences.getString("token", "") ?: ""
         set(value) = sharedPreferences.edit { putString("token", value) }
+
+    var webEngageId: String
+        get() = sharedPreferences.getString("webEngageId", "") ?: ""
+        set(value) = sharedPreferences.edit { putString("webEngageId", value) }
+
+    var userDetailsInitialized: Boolean
+        get() = sharedPreferences.getBoolean("userDetailsInitialized",false)
+        set(value) = sharedPreferences.edit { putBoolean("userDetailsInitialized", value) }
 }

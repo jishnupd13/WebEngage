@@ -1,4 +1,4 @@
-package com.app.mymainapp.ui.login
+package com.app.mymainapp.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -11,15 +11,15 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class LoginViewModel @Inject constructor(
+class HomeViewModel @Inject constructor(
     private val mainRepository: AppRepository
 ) : ViewModel() {
 
-    private val checkAuth = MutableLiveData<List<PersonEntity>>()
-    val checkAuthLiveData: LiveData<List<PersonEntity>>
-        get() = checkAuth
+    private val fetchPersonByWebEngageId = MutableLiveData<List<PersonEntity>>()
+    val fetchPersonByWebEngageIdLiveData: LiveData<List<PersonEntity>>
+        get() = fetchPersonByWebEngageId
 
-    fun fetchAuthData(email: String, password: String) = viewModelScope.launch {
-        checkAuth.postValue(mainRepository.checkAuth(email, password))
+    fun fetchPersonByWebEngageId(id: String) = viewModelScope.launch {
+        fetchPersonByWebEngageId.postValue(mainRepository.fetchPersonsByWebEngageId(id))
     }
 }

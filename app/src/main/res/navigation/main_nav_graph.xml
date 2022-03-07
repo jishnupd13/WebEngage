@@ -17,6 +17,12 @@
             app:popUpTo="@id/splashScreenFragment"
             app:popUpToInclusive="true"
             />
+        <action
+            android:id="@+id/action_splashScreenFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true"
+            />
     </fragment>
 
     <fragment
@@ -28,6 +34,9 @@
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
@@ -35,4 +44,12 @@
         android:label="RegisterFragment"
         tools:layout="@layout/fragment_register"
         />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.app.mymainapp.ui.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home"
+        />
+
 </navigation>
