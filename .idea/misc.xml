@@ -4,6 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/JISHNU/AndroidStudioProjects/Mvvm-architecture-kotlin/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/WebEngage/app/src/main/res/drawable/bg_edit_text.xml" value="0.7428571428571429" />
+        <entry key="..\:/WebEngage/app/src/main/res/drawable/bg_edit_text_register.xml" value="0.18974358974358974" />
+        <entry key="..\:/WebEngage/app/src/main/res/layout/activity_main.xml" value="0.11503623188405797" />
+        <entry key="..\:/WebEngage/app/src/main/res/layout/activity_origin.xml" value="0.11503623188405797" />
+        <entry key="..\:/WebEngage/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/WebEngage/app/src/main/res/layout/fragment_register.xml" value="0.2" />
+        <entry key="..\:/WebEngage/app/src/main/res/layout/fragment_splash_screen.xml" value="0.10869565217391304" />
+        <entry key="..\:/WebEngage/app/src/main/res/xml/my_backup_rules.xml" value="0.10869565217391304" />
       </map>
     </option>
   </component>
