@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.app.mymainapp.ui.splashscreen.SplashScreenViewModel" />
+            type="com.app.webengage.ui.splashscreen.SplashScreenViewModel" />
 
     </data>
 

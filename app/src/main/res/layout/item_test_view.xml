@@ -6,11 +6,11 @@
 
         <variable
             name="listner"
-            type="com.app.mymainapp.listeners.OnItemClickListener" />
+            type="com.app.webengage.listeners.OnItemClickListener" />
 
         <variable
             name="item"
-            type="com.app.mymainapp.models.TestApiResponseModel" />
+            type="com.app.webengage.models.TestApiResponseModel" />
     </data>
 
     <androidx.cardview.widget.CardView

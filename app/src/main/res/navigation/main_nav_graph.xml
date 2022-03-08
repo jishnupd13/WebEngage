@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashScreenFragment"
-        android:name="com.app.mymainapp.ui.splashscreen.SplashScreenFragment"
+        android:name="com.app.webengage.ui.splashscreen.SplashScreenFragment"
         android:label="SplashScreenFragment"
         tools:layout="@layout/fragment_splash_screen"
         >
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.app.mymainapp.ui.login.LoginFragment"
+        android:name="com.app.webengage.ui.login.LoginFragment"
         android:label="LoginFragment"
         tools:layout="@layout/fragment_login"
         >
@@ -40,16 +40,23 @@
     </fragment>
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.app.mymainapp.ui.register.RegisterFragment"
+        android:name="com.app.webengage.ui.register.RegisterFragment"
         android:label="RegisterFragment"
         tools:layout="@layout/fragment_register"
         />
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.app.mymainapp.ui.home.HomeFragment"
+        android:name="com.app.webengage.ui.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home"
-        />
+        >
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true"
+            />
+    </fragment>
 
 </navigation>

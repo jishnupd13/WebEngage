@@ -9,11 +9,11 @@
 
         <variable
             name="listner"
-            type="com.app.mymainapp.listeners.OnItemClickListener" />
+            type="com.app.webengage.listeners.OnItemClickListener" />
 
         <variable
             name="item"
-            type="com.app.mymainapp.models.TestApiNestedModel" />
+            type="com.app.webengage.models.TestApiNestedModel" />
 
     </data>
 

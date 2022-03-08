@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.app.mymainapp.ui.home.HomeViewModel" />
+            type="com.app.webengage.ui.home.HomeViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

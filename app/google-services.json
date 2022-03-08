@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "784507193470",
+    "project_id": "webengage-efe44",
+    "storage_bucket": "webengage-efe44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784507193470:android:bb7dc087b78f40cb11b02f",
+        "android_client_info": {
+          "package_name": "com.app.webengage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784507193470-q9ko3vubgcftrt9ip592cj4if9fll3u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRYbtu15JUBEVEDQNhGfZzQ_t6KF8XbWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784507193470-q9ko3vubgcftrt9ip592cj4if9fll3u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784507193470:android:5f876c6efcece4fd11b02f",
+        "android_client_info": {
+          "package_name": "com.recycler.mymainapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784507193470-q9ko3vubgcftrt9ip592cj4if9fll3u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRYbtu15JUBEVEDQNhGfZzQ_t6KF8XbWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784507193470-q9ko3vubgcftrt9ip592cj4if9fll3u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
