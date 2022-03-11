@@ -51,7 +51,8 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                 requireContext().showToast("Email and password is incorrect")
             } else {
                 preferenceHandler.webEngageId = it[0].webEngageId
-                weUser?.login(preferenceHandler.webEngageId)
+               weUser?.login(preferenceHandler.webEngageId)
+
                 findNavController().navigate(
                     LoginFragmentDirections.actionLoginFragmentToHomeFragment()
                 )
